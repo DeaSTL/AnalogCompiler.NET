@@ -9,6 +9,7 @@ namespace ConsoleApp1
         {
             File file = new File("test.anc");
             Console.WriteLine(file.getFileContents());
+            file.getRawFileContents();
 
             Console.ReadLine();
           
